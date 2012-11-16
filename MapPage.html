@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+ <script charset="UTF-8" type="text/javascript" src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0">
+</script>
+<script type="text/javascript">
+    function GetMap() {
+        var map = new Microsoft.Maps.Map(document.getElementById("mapDiv"), { credentials: "AoKrCrO2W5WPzBAiQJ23VL1HLdoYSWXL_sBOzq-Iws2Kxj86jaz3GM2vyI7gw0Rt" });
+
+    }
+</script>
+
+    <title>Map Page</title>
+</head>
+<body onload="GetMap();">
+<div id='mapDiv' style="position:absolute; width:400px; height:400px;"></div>
+
+ 
+</body>
+</html>
